@@ -2,7 +2,7 @@
 
 created by [marie molins](https://www.instagram.com/mariemolins/)
 
-coded by [kamil izaret](https://twitter.com/kamilwip)
+coded by [me](https://github.com/kxmil) 🕺🏻
 
 exhibited at [xx1](https://xx1.acces-s.org/) & curated by jean-jacques gay
 
