@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body{
+  display: flex;
+  background: #000;
+  color: rgb(77, 82, 255);
+  overflow: hidden;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.2;
+}
+
+pre {
+  position: absolute;
+  margin:0;
+  padding:0;
+  left:0;
+  top:0;
+  width:100vw;
+  height:100vh;
+  font-family: inherit;
+  z-index: -1;
+}
+
+#aboutLink{
+  position: absolute;
+  right: 0;
+  background: #000;
+  border: solid 2px rgb(77, 82, 255);
+  padding: 10px 15px;
+  text-decoration: none;
+  color: rgb(77, 82, 255);
+  border-radius: 0 0 0 15px;
+}
+
+ul{
+  list-style: none;
+  position: absolute;
+  width: 20vw;
+  background: #000;
+  border: solid 2px rgb(77, 82, 255);
+  padding: 10px 60px;
+  border-radius: 5px;
+}
+
+canvas{
+  position: absolute;
+  width: 70px !important;
+  height: 70px !important;
+  margin-top: 12px;
+}
+
+#defaultCanvas0{
+  right: calc(30vw - 5px);
+  top: 25vh;
+}
+
+#defaultCanvas1{
+  right: calc(30vw - 5px);
+  top: 35vh;
+}
+
+#defaultCanvas2{
+  right: calc(30vw - 5px);
+  top: 45vh;
+}
+
+#defaultCanvas3{
+  right: calc(30vw - 5px);
+  top: 55vh;
+}
+
+#defaultCanvas4{
+  right: calc(30vw - 5px);
+  top: 65vh;
+}
+#defaultCanvas5{
+  left: calc(5vw - 3px);
+  top: 25vh;
+}
+
+#defaultCanvas6{
+  left: calc(5vw - 3px);
+  top: 35vh;
+}
+
+#defaultCanvas7{
+  left: calc(5vw - 3px);
+  top: 45vh;
+}
+
+#defaultCanvas8{
+  left: calc(5vw - 3px);
+  top: 55vh;
+}
+
+#defaultCanvas9{
+  left: calc(5vw - 3px);
+  top: 65vh;
+}
+
+iframe{
+  top: -5vh;
+  left: 10vw;
+  z-index: 10;
+  position: absolute;
+  width: 76vw !important;
+  height: 60vw !important;
+  overflow: hidden;
+  border: none;
+  transition: 500ms;
+}
+
+#cell1{
+  right: 5vw;
+  top: 25vh;
+}
+
+#cell2{
+  right: 5vw;
+  top: 35vh;
+}
+
+#cell3{
+  right: 5vw;
+  top: 45vh;
+}
+
+#cell4{
+  right: 5vw;
+  top: 55vh;
+}
+
+#cell5{
+  right: 5vw;
+  top: 65vh;
+}
+
+#cell11{
+  left: 5vw;
+  top: 25vh;
+}
+
+#cell12{
+  left: 5vw;
+  top: 35vh;
+}
+
+#cell13{
+  left: 5vw;
+  top: 45vh;
+}
+
+#cell14{
+  left: 5vw;
+  top: 55vh;
+}
+
+#cell15{
+  left: 5vw;
+  top: 65vh;
+}
+
+h1{
+  position: absolute;
+  width: 70vw;
+  z-index: 10;
+  top: 30vh;
+  left: 15vw;
+  text-align: center;
+  background: #000;
+  border: solid 2px rgb(77, 82, 255);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 3em;
+  opacity: 0;
+}
+
+h2{
+  background: #000;
+  border: solid 2px rgb(77, 82, 255);
+  color: rgb(77, 82, 255);
+  border-radius: 5px;
+  padding: 15px;
+  width: 16vw;
+  position: absolute;
+  left: calc(42vw - 15px);
+  font-family: 'Share Tech Mono', monospace;
+  text-align: center;
+}
+
+button{
+  position: absolute;
+  padding: 5px;
+  background: #000;
+  border: solid 2px rgb(77, 82, 255);
+  color: rgb(77, 82, 255);
+  border-radius: 5px;
+  width: 14vw;
+  bottom: 30px;
+  left: 43vw;
+  z-index: 15;
+  font-size: 1em;
+}
+
+button:hover{
+  background: rgb(77, 82, 255);
+  color: #000;
+  cursor: pointer;
+}
+
+/* about page */
+
+#about{
+  flex-direction: column;
+}
+
+#about p{
+  margin-left: 10px;
+}
+
+#about a{
+  color: rgb(77, 82, 255);
+}
+
+
