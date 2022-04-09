@@ -1,6 +1,6 @@
 # watchmyblock.xyz
 
-live [here](https://www.watchmyblock.xyz)
+[watchmyblock.xyz](https://www.watchmyblock.xyz)
 
 created by [marie molins](https://www.instagram.com/mariemolins/)
 
