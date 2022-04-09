@@ -1,5 +1,7 @@
 # watchmyblock.xyz
 
+live [here](https://www.watchmyblock.xyz)
+
 created by [marie molins](https://www.instagram.com/mariemolins/)
 
 coded by [me](https://github.com/kxmil) 🕺🏻
